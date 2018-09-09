@@ -131,14 +131,15 @@ size_flags_vertical = 1
 custom_fonts/font = SubResource( 1 )
 custom_colors/font_color = Color( 0.550781, 0.0882111, 0.0882111, 1 )
 custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
-custom_constants/shadow_offset_x = 1
+custom_constants/shadow_offset_x = 2
+custom_constants/shadow_offset_y = 1
 custom_constants/shadow_as_outline = 1
 text = "POSITION:"
 align = 1
 percent_visible = 1.0
 lines_skipped = 0
 max_lines_visible = -1
-_sections_unfolded = [ "Margin", "Rect", "Size Flags", "custom_colors", "custom_fonts" ]
+_sections_unfolded = [ "Margin", "Rect", "Size Flags", "custom_colors", "custom_constants", "custom_fonts" ]
 __meta__ = {
 "_edit_lock_": true
 }
@@ -161,14 +162,14 @@ size_flags_vertical = 0
 custom_fonts/font = SubResource( 2 )
 custom_colors/font_color = Color( 0.550781, 0.0882111, 0.0882111, 1 )
 custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
-custom_constants/shadow_offset_x = 1
+custom_constants/shadow_offset_x = 2
 custom_constants/shadow_as_outline = 1
 text = "NAME:"
 align = 1
 percent_visible = 1.0
 lines_skipped = 0
 max_lines_visible = -1
-_sections_unfolded = [ "Size Flags", "custom_colors", "custom_fonts" ]
+_sections_unfolded = [ "Size Flags", "custom_colors", "custom_constants", "custom_fonts" ]
 __meta__ = {
 "_edit_lock_": true
 }
@@ -191,14 +192,14 @@ size_flags_vertical = 1
 custom_fonts/font = SubResource( 1 )
 custom_colors/font_color = Color( 0.550781, 0.0882111, 0.0882111, 1 )
 custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
-custom_constants/shadow_offset_x = 1
+custom_constants/shadow_offset_x = 2
 custom_constants/shadow_as_outline = 1
 text = "SCORE:"
 align = 1
 percent_visible = 1.0
 lines_skipped = 0
 max_lines_visible = -1
-_sections_unfolded = [ "Size Flags", "custom_colors", "custom_fonts" ]
+_sections_unfolded = [ "Size Flags", "custom_colors", "custom_constants", "custom_fonts" ]
 __meta__ = {
 "_edit_lock_": true
 }
@@ -246,7 +247,7 @@ size_flags_horizontal = 1
 size_flags_vertical = 1
 custom_constants/separation = 0
 alignment = 1
-_sections_unfolded = [ "Rect", "Size Flags", "custom_constants" ]
+_sections_unfolded = [ "Rect", "Size Flags", "Visibility", "custom_constants" ]
 
 [node name="Position" type="VBoxContainer" parent="VBoxContainer/HighscoreScroll/VBoxContainer" index="0"]
 
